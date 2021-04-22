@@ -1,0 +1,30 @@
+ Sell your guns :
+  
+Problem statement :   
+                               Having multiple guns of the same type is useless. You can make money by selling extra guns of the same type. Your task is to find total number of duplicate (extra) guns 
+and the maximum amount that can be made by selling those guns. 
+
+Function Description :
+            The code given below products incorrect output. Make changes to the code given below
+So the correct output is produced. Make changes in the findExtras(), prices() function to solve 
+The challenge.
+
+
+
+ Input 
+  No of guns owned.
+   Array containing the list of guns
+   Array containing list of prices for all guns.
+
+
+ Output :
+Maximum amount that can be made
+
+
+
+
+Sample input:
+ 5
+Odin odin bucky odin bucky
+25000
+

@@ -1,0 +1,25 @@
+3 .   Find the previous better player :
+                Given a list of rank of players, for each player in the list find the recent previous better rank in the list. 
+
+        
+      Function Description: 
+            The code given below products incorrect output. Make changes to the code given below 
+        So the correct output is produced. Make changes in the function previousBest()
+        to solve the challenge.
+
+
+
+Input :  
+    No of players
+    Array of ranks
+        
+Output: 
+    1.  Array of previous better ranks. 
+
+     
+
+    Sample Input:    [5, 8, 1,5, 4, 3, 1, 7, 8, 1, 5]
+    
+    Sample Output:  [-1, -1, 8, 8, 5, 4, 3, 8, -1, 8, 8]
+
+
