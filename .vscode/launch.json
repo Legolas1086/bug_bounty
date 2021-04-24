@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Valorant_squad",
+            "request": "launch",
+            "mainClass": "Valorant_squad",
+            "projectName": "bug_750b24a1"
+        },
+        {
+            "type": "java",
             "name": "Launch Sell_guns",
             "request": "launch",
             "mainClass": "Sell_guns",
