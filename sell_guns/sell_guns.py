@@ -1,22 +1,25 @@
 def prices(extras):
-    cost = []
+    total_cost = 0
     for i in range(len(extras)):
         if extras[i] == 'odin':
-            cost.append(10000)
+            total_cost += 10000
 
         elif extras[i] == 'operator':
-            cost.append(8000)
+            total_cost += 8000
 
         elif extras[i] == 'bulldog':
-            cost.append(7000)
+            total_cost += 7000
 
         elif extras[i] == 'bucky':
-            cost.append(5000)
+            total_cost += 5000
 
         elif extras[i] == 'ghost':
-            cost.append(2000)                
+            total_cost += 2000
+
+        elif extras[i] == 'ares':
+            total_cost += 9000                  
             
-    return cost
+    return total_cost
 
 
 def findExtras(n,guns):
@@ -27,11 +30,7 @@ def findExtras(n,guns):
                 extras.append(guns[j])
                 break
 
-    costs = prices(extras)
-
-    total_cost = 0
-    for i in range(len(costs)):
-        total_cost += costs[i]
+    total_cost = prices(extras)
 
     return total_cost    
                
