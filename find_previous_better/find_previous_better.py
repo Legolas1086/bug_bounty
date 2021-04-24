@@ -15,14 +15,13 @@ def previousBest(n,ranks):
 
         stack.append(ranks[i])
 
-    return previous_greater                
-
-
-
+    for i in previous_greater:
+        print(i,end=" ")
+        
 
 if __name__=="__main__":
     n = int(input())
     ranks = list(map(int,input().rstrip().split()))
 
-    result = previousBest(n,ranks)
-    print(result)
+    previousBest(n,ranks)
+    

@@ -2,8 +2,8 @@ Form your valorant squad:
 
 problem statement:
           To be able to win in valorant, skills and communication are equally important. Players are
-ranked based on their skills and performance in 8 divisions. Now assume you have 8 friends
- who play valorant with whom you have different levels of communication or understanding .
+ranked based on their skills and performance in 8 divisions. Now assume you have list of friends
+who play valorant with whom you have different levels of communication or understanding .
           
 Now you have choose 4 team members such that the sum of skill level and communication
 between team-mates is max
