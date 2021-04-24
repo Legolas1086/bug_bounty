@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch find_previous_better",
+            "request": "launch",
+            "mainClass": "find_previous_better",
+            "projectName": "bug_750b24a1"
+        },
+        {
+            "type": "java",
             "name": "Launch Valorant_squad",
             "request": "launch",
             "mainClass": "Valorant_squad",
