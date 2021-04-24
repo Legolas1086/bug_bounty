@@ -1,30 +1,28 @@
-def convertRanks(n,ranks):
-    for i in range(n):
-        if ranks[i] == 'iron':
-            ranks[i] = 1
+def convertRanks(ranks):
+    
+    if ranks == 'iron':
+        return 1
 
-        elif ranks[i] == 'bronze':
-            ranks[i] = 2
+    elif ranks == 'bronze':
+        return 2
 
-        elif ranks[i] == 'silver':
-            ranks[i] = 3
+    elif ranks == 'silver':
+        return 3
 
-        elif ranks[i] == 'gold':
-            ranks[i] = 4
+    elif ranks == 'gold':
+        return 4
 
-        elif ranks[i] == 'platinum':
-            ranks[i] = 5
+    elif ranks == 'platinum':
+        return 5
 
-        elif ranks[i] == 'diamond':
-            ranks[i] = 6
+    elif ranks == 'diamond':
+        return 6
 
-        elif ranks[i] == 'immortal':
-            ranks[i] = 7 
+    elif ranks == 'immortal':
+        return 7 
 
-        elif ranks[i] == 'radiant':
-            ranks[i] = 8                        
-
-    return ranks
+    elif ranks == 'radiant':
+        return 8                        
 
 
 def partition(arr, low, high):
@@ -53,11 +51,10 @@ def arrangeScore(score_of_players,low,high):
 
 
 def bestTeam(n,ranks,communication):
-    converted_ranks = convertRanks(n,ranks)
 
     score_of_players = []
     for i in range(n):
-        score_of_players.append(converted_ranks[i]+communication[i])
+        score_of_players.append(convertRanks(ranks[i])+communication[i])
 
     arrangeScore(score_of_players,0,n-1)
     
@@ -72,4 +69,3 @@ if __name__=="__main__":
 
     result = bestTeam(n,ranks,communication)
     print(result)
-    
