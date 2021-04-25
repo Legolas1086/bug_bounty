@@ -102,7 +102,8 @@ public class Valorant_squad{
             .collect(toList());
 
         if(n<4){
-            System.out.println("Cannot form team, at least 4 players required");
+            System.out.println("Cannot form a team, at least 4 players required");
+            return;
         }    
         
         BestTeam best = new BestTeam();
