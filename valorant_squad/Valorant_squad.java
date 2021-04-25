@@ -100,6 +100,10 @@ public class Valorant_squad{
         List<Integer> communication = Stream.of(reader.readLine().replaceAll("\\s+$", "").split(" "))
             .map(Integer::parseInt)
             .collect(toList());
+
+        if(n<4){
+            System.out.println("Cannot form team, at least 4 players required");
+        }    
         
         BestTeam best = new BestTeam();
         int result = best.bestTeam(n, ranks, communication);
