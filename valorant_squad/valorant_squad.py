@@ -67,5 +67,9 @@ if __name__=="__main__":
     ranks = list(input().rstrip().split())
     communication = list(map(int,input().rstrip().split()))
 
+    if n<4:
+        print("Cannot from a team, at least 4 members are required")
+        exit(0)
+
     result = bestTeam(n,ranks,communication)
     print(result)
