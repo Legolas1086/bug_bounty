@@ -24,4 +24,3 @@ if __name__=="__main__":
     ranks = list(map(int,input().rstrip().split()))
 
     previousBest(n,ranks)
-    

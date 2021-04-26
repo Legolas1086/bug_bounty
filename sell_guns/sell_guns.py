@@ -29,6 +29,7 @@ def findExtras(n,guns):
             if guns[i] == guns[j]:
                 extras.append(guns[j])
                 break
+                
 
     total_cost = prices(extras)
 
