@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "valorant_squad",
-        "find_previous_better"
+        "find_previous_better",
+        "sell_guns"
     ]
 }

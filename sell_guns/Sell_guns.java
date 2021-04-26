@@ -18,12 +18,12 @@ class FindPrice{
                 total_cost = total_cost+5000;
             }
 
-            else if (extras.get(i)=="bulldog") {
+            else if (extras.get(i).equals("bulldog")) {
                 total_cost = total_cost+7000;
             }
 
             else if(extras.get(i).equals("ghost")){
-                total_cost = total_cost+2000;;
+                total_cost = total_cost+2000;
             }
 
             else if(extras.get(i).equals("operator")){

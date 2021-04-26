@@ -19,7 +19,7 @@ class BestTeam{
             j=3;
         }
             
-        else if(rank.equals("gols")){
+        else if(rank.equals("gold")){
             j=4;
         }
 
@@ -102,7 +102,7 @@ public class Valorant_squad{
             .collect(toList());
 
         if(n<4){
-            System.out.println("Cannot form a team, at least 4 players required");
+            System.out.println("Cannot form a team, at least 4 players are required");
             return;
         }    
         
