@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "bug_750b24a1"
+        },
+        {
+            "type": "java",
             "name": "Launch find_previous_better",
             "request": "launch",
             "mainClass": "find_previous_better",
