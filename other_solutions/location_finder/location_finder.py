@@ -3,8 +3,7 @@ def swap(nums,i,j):
     nums[i] = nums[j]
     nums[j] = temp
 
-
-
+    
 def reverse(nums,start):
     i = start
     j = len(nums)-1
@@ -13,10 +12,7 @@ def reverse(nums,start):
         swap(nums,i,j)
         i+=1
         j-=1    
-
-
-
-
+        
 
 def next_permutation(n,nums):
     i = n-2
@@ -31,8 +27,6 @@ def next_permutation(n,nums):
         swap(nums,i,j)
 
     reverse(nums,i+1)            
-
-
 
 
 if __name__=="__main__":
